@@ -424,6 +424,30 @@ export default function Home() {
           <div className="footer-brand">
             <Brand inverse />
             <p>For all the little things<br />that turn into big things.</p>
+            <div className="footer-socials" aria-label="Follow Castlewood Preschool">
+              <a
+                href="https://www.facebook.com/castlewoodpreschoolindore/"
+                target="_blank"
+                rel="noreferrer"
+                aria-label="Castlewood Preschool on Facebook"
+              >
+                <svg aria-hidden="true" viewBox="0 0 24 24" fill="currentColor">
+                  <path d="M13.5 21v-8.2h2.8l.4-3.2h-3.2v-2c0-.9.3-1.6 1.6-1.6h1.7V3.1c-.3 0-1.4-.1-2.6-.1-2.6 0-4.4 1.6-4.4 4.5v2.1H7v3.2h2.8V21h3.7Z" />
+                </svg>
+              </a>
+              <a
+                href="https://www.instagram.com/castlewoodpreschoolindore/"
+                target="_blank"
+                rel="noreferrer"
+                aria-label="Castlewood Preschool on Instagram"
+              >
+                <svg aria-hidden="true" viewBox="0 0 24 24" fill="none">
+                  <rect x="3.2" y="3.2" width="17.6" height="17.6" rx="5" stroke="currentColor" strokeWidth="1.8" />
+                  <circle cx="12" cy="12" r="4.1" stroke="currentColor" strokeWidth="1.8" />
+                  <circle cx="17.7" cy="6.6" r="1.1" fill="currentColor" />
+                </svg>
+              </a>
+            </div>
           </div>
           <div className="footer-links">
             <span className="footer-label">WANDER AROUND</span>

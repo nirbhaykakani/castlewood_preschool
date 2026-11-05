@@ -1098,6 +1098,34 @@ h2 em {
   line-height: 1.5;
 }
 
+.footer-socials {
+  display: flex;
+  gap: 9px;
+  margin: 17px 0 0;
+}
+
+.footer-socials a {
+  width: 32px;
+  height: 32px;
+  display: grid;
+  place-items: center;
+  border: 1px solid rgba(248, 245, 237, 0.35);
+  border-radius: 50%;
+  color: #f8f5ed;
+  transition: color 160ms ease, background 160ms ease, border-color 160ms ease;
+}
+
+.footer-socials a:hover {
+  border-color: var(--yellow);
+  background: rgba(248, 245, 237, 0.1);
+  color: var(--yellow);
+}
+
+.footer-socials svg {
+  width: 16px;
+  height: 16px;
+}
+
 .footer-links {
   display: flex;
   flex-direction: column;
